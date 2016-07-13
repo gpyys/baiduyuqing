@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>百度舆情</title>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script src="js/index.js"></script>
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div class="nav">
+		<div class="dh">
+			<div class="logo"></div>
+			<div class="left">
+				<ul>
+					<li><a href="">首页</a></li>
+					<li><a href="">产品介绍</a></li>
+					<li><a href="">用户版</a></li>
+				</ul>
+			</div>
+			<div class="right">
+				<ul>
+					<li><a href="">登陆</a></li>
+					<li><a href="">手机客户端
+						<div class="hot">Hot</div>
+					</a></li>
+					<li><a href="">百度司南</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">申请试用</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="dowebok">
+	    <div class="section">
+	        <img src="images/4.png" class="t1">
+	        <img src="images/6.png" class="t2">
+	        <img src="images/2.png" class="t3">
+	        <img src="images/7.png" class="t4">
+	        <img src="images/9.png" class="t5">
+	        <img src="images/cloud_1.png" class="t6">
+	        <img src="images/cloud_2.png" class="t7">
+	        <img src="images/cloud_3.png" class="t8">
+	        <img src="images/1.png" class="t9 btn">
+	        <div class="b"></div>
+	        <div class="zh">
+	        	<div class="user">
+	        		<img src="images/6.jpg" alt="">
+	        		<input type="text" value="用户名">
+	        	</div>
+	        	<div class="pass">
+	        		<img src="images/7.jpg" alt="">
+	        		<input type="text" value="密码">
+	        	</div>
+	        	<div class="yz">
+	        		<input type="text" value="验证码">
+	        		<img src="images/image.jpg" alt="">
+	        		<a href="">换一张</a>
+	        	</div>
+	        	<div class="dl">
+	        		<a href="">登录</a>
+	        	</div>
+	        	<div class="d">
+	        		<a href="">安全控件常见问题</a>
+	        		<a href="">忘记密码</a>
+	        	</div>
+	        </div>
+	    </div>
+	    <div class="section">
+	        <div class="title">
+	        	<img src="images/10.png" alt="">
+	        	<p class="p1">数据收集与处理</p>
+	        	<p class="p2">15年专业数据收集与语义分析技术积累卓越极致，不断攀登</p>
+	        </div>
+	        <img src="images/11.png" class="t">
+	        <img src="images/1.png" class="t1 btn">
+	        <img src="images/bg2.png" class="t2">
+	    </div>
+	    <div class="section">
+	        <div class="title">
+	        	<img src="images/12.png" alt="">
+	        	<p class="p1">舆情分析逻辑与架构</p>
+	        	<p class="p2">声量诊断、传播分析、情感提炼、受众画像有方法论，更有智慧</p>
+	        </div>
+	        <img src="images/13.png" class="t">
+            <img src="images/bg3.png" class="t2">
+	        <img src="images/14.png" class="t3">
+	        <img src="images/1.png" class="t1 btn">
+	    </div>
+	    <div class="section">
+	        <div class="title">
+	        	<img src="images/16.png" alt="">
+	        	<p class="p1">舆情分析逻辑与架构</p>
+	        	<p class="p2">非凡的数据洞悉和可视化能力精研数据，惊艳所见</p>
+	        </div>
+	        <img src="images/17.png" class="t">
+	        <img src="images/15.png" class="t1">
+	        <div class="z">
+	        	<p>© 2014 Baidu</p>
+	        	<p><a href="">使用百度前必读</a></p>
+	        </div>
+	    </div>
+	</div>
+</body>
+<script>
+	$(function(){
+		$('#dowebok').fullpage({
+			verticalCentered:false,
+			navigation:true,
+			navigationTooltips:["登录百度舆情","领先：数据处理与收集","全面：逻辑分析与架构","专业：专业数据可视化"]
+		})
+		$('.btn').click(function(){
+			$.fn.fullpage.moveSectionDown();
+		})
+		$('.zh input').focus(function(){
+			$(this).css('borderColor','transparent');
+		})
+	});
+</script>
+</html>

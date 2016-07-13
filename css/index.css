@@ -1,0 +1,497 @@
+body,ul,li,h1,h2,h3,h4,h5,p,img{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+  border:0px;
+}
+.nav{
+	width: 100%;
+	height: 60px;
+	background:#168BD8;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 9999;
+}
+.nav .dh{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+.nav .dh .logo{
+	width:120px;
+	height: 40px;
+	float:left;
+	margin-top: 10px;
+	background: url(../images/8.png) no-repeat 0 0;
+}
+.nav .dh .left{
+	width: 360px;
+	height: 100%;
+	margin-left: 30px;
+	float: left;
+}
+.nav .dh .left ul li{
+	width: 120px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	padding-top: 20px;
+}
+.nav .dh .left ul li a{
+	font-size: 15px;
+	font-family: 微软雅黑;
+	line-height: 40px;
+	color: white;
+}
+.nav .dh .left ul li a:hover{
+	color: #5CCEFF;
+}
+.nav .dh .right{
+	width: 400px;
+	height: 100%;
+	float: right;
+}
+.nav .dh .right ul li{
+	width: 70px;
+	height: 40px;
+	padding-top: 30px;
+	float: left;
+	text-align: center;
+}
+.nav .dh .right ul li:nth-child(2){
+	width: 120px;
+	position: relative;
+}
+.nav .dh .right ul li:nth-child(2) a .hot{
+	width: 30px;
+	height: 15px;
+	border-radius: 2px;
+	background:orange;
+	position: absolute;
+	top:22px;
+	right:0px;
+	text-align: center;
+	line-height: 15px;
+	font-size: 12px;
+}
+.nav .dh .right ul li a{
+	font-size: 12px;
+	font-family: 微软雅黑;
+	line-height: 30px;
+	color: white;
+}
+.nav .dh .right ul li:last-child a{
+	color: orange;
+}
+/*--------------------*/
+.section:first-child{
+	background: url(../images/bg1.jpg);
+	position: relative;
+}
+.section:first-child .t1{
+	position: absolute;
+	left:0;
+	bottom:0;
+}
+.section:first-child .t2{
+	position: absolute;
+	right:80px;
+	bottom:0;
+}
+.section:first-child .t3{
+	position: absolute;
+	left:300px;
+	bottom:90px;
+	animation:move4 2s linear both;
+}
+.section:first-child .t4{
+	position: absolute;
+	left:150px;
+	top:90px;
+}
+.section:first-child .t5{
+	position: absolute;
+	left:440px;
+	top:80px;
+	animation:move2 2s linear infinite both;
+}
+.section:first-child .t6{
+	position: absolute;
+	left:400px;
+	top:80px;
+	animation:move1 20s linear infinite both;
+}
+.section:first-child .t7{
+	position: absolute;
+	right:400px;
+	top:80px;
+	animation:move1 20s linear infinite both;
+}
+.section:first-child .t8{
+	position: absolute;
+	right:50%;
+	top:120px;
+	animation:move1 20s linear infinite both;
+}
+.section:first-child .t9{
+	position: absolute;
+	left:50%;
+	margin-left: -15px;
+	bottom:40px;
+	animation:move3 .8s linear infinite both;
+	z-index: 1000;
+}
+.section:first-child .b{
+	width: 100%;
+	height: 125px;
+	background: #0B67BE;
+	position: absolute;
+	bottom:0;
+	opacity: 0.5;
+}
+.section:first-child .zh{
+	width: 340px;
+	height: 300px;
+	border-radius: 5px;
+	background: #4EBFFC;
+	position: absolute;
+	top:110px;
+	right:200px;
+}
+.section:first-child .zh .user{
+	width: 300px;
+	height: 40px;
+	background: white;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+.section:first-child .zh .user img{
+   margin-top: 7px;
+   margin-left: 5px;
+	float: left;
+}
+.section:first-child .zh .user input{
+	display: block;
+	width: 265px;
+	height: 38px;
+	border:0;
+	float: right;
+}
+.section:first-child .zh .pass{
+	width: 300px;
+	height: 40px;
+	background: white;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.section:first-child .zh .pass img{
+   margin-top: 10px;
+   margin-left: 10px;
+	float: left;
+}
+.section:first-child .zh .pass input{
+	display: block;
+	width: 265px;
+	height: 38px;
+	border:0;
+	float: right;
+}
+.section:first-child .zh .yz{
+	width: 300px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.section:first-child .zh .yz input{
+	display: block;
+	width: 140px;
+	height: 38px;
+	background: white;
+	border:0;
+	margin-right: 15px;
+	float: left;
+}
+.section:first-child .zh .yz img{
+	float: left;
+}
+.section:first-child .zh .yz a{
+	float: right;
+	font-size: 12px;
+	color:white;
+	line-height: 40px;
+	margin-right: 15px;
+}
+.section:first-child .zh .yz a:hover{
+	text-decoration: underline;
+}
+.section:first-child .zh .dl{
+	width: 300px;
+	height: 40px;
+	margin-top: 25px;
+	margin-left: 20px;
+	background: #FFD850;
+	text-align: center;
+}
+.section:first-child .zh .dl a{
+	font-size: 16px;
+	line-height: 40px;
+	color:#999;
+}
+.section:first-child .zh .d{
+	width: 300px;
+	height: 40px;
+	margin-left: 20px;
+	text-align: center;
+}
+.section:first-child .zh .d a{
+	font-size: 12px;
+	color:white;
+	line-height: 40px;
+}
+.section:first-child .zh .d a:hover{
+	text-decoration: underline;
+}
+.section:first-child .zh .d a:first-child{
+	float: left;
+}
+.section:first-child .zh .d a:last-child{
+	float: right;
+}
+@keyframes move1 {
+	100%{
+		transform:translateX(-1366px);
+	}
+}
+@keyframes move4 {
+	100%{
+		transform:translateX(20px);
+	}
+}
+@keyframes move2 {
+	0%{
+		transform:translateY(0px);
+	}
+	100%{
+		transform:translateY(10px);
+	}
+}
+@keyframes move3 {
+	0%{
+		transform:translateY(0px);
+		opacity: 1;
+	}
+	100%{
+		transform:translateY(3px);
+		opacity: 0.5;
+	}
+}
+/*--二楼开始------------------------------*/
+.section:nth-child(2){
+	background: url(../images/2.jpg);
+	position: relative;
+}
+.section:nth-child(2) .t1{
+	position: absolute;
+	left:50%;
+	margin-left: -15px;
+	bottom:40px;
+	animation:move3 .8s linear infinite both; 
+	z-index: 1000;
+}
+.section:nth-child(2) .t2{
+	position: absolute;
+	bottom: 0;
+	left:50%;
+	margin-left: -535px;
+}
+.active .title{
+    animation:m1 2s  both;
+}
+.active .t{
+    animation:m1 2s  both;
+}
+.section:nth-child(2) .title{
+	width: 480px;
+	height: 126px;
+	position: absolute;
+	top:200px;
+	left:16%;
+	transform:translateX(-50px);
+	opacity: 0;
+	z-index: 100;
+}
+.section:nth-child(2) .title img{
+	float: left;
+	animation:xz 1s 0.5s infinite both;
+}
+.section:nth-child(2) .title .p1{
+	width: 400px;
+	height: 48px;
+	float: right;
+	padding-bottom: 4px;
+	font-size: 40px;
+	line-height: 40px;
+	color:white;
+}
+.section:nth-child(2) .title .p2{
+	width: 400px;
+	height: 64px;
+	float: right;
+	font-size: 22px;
+	line-height: 32px;
+	color:white;
+}
+.section:nth-child(2) .t{
+	position: absolute;
+	top:80px;
+	right:14%;
+	transform:translateX(50px);
+	opacity: 0;
+}
+@keyframes m1 {
+	100%{
+		transform:translateX(0px);
+		opacity: 1;
+	}
+}
+@keyframes xz {
+	100%{
+		transform:rotateY(-360deg);
+	}
+}
+/*-三楼开始----------------------------*/
+.section:nth-child(3){
+	background: url(../images/3.jpg);
+	position: relative;
+}
+.section:nth-child(3) .t1{
+	position: absolute;
+	left:50%;
+	margin-left: -15px;
+	bottom:40px;
+	animation:move3 .8s linear infinite both; 
+}
+.section:nth-child(3) .t3{
+	position: absolute;
+	bottom:0;
+	left:0;
+}
+.section:nth-child(3) .t2{
+	position: absolute;
+	top:10px;
+	left:14%;
+}
+.section:nth-child(3) .title{
+	width: 480px;
+	height: 126px;
+	position: absolute;
+	top:200px;
+	left:16%;
+	transform:translateX(-100px);
+	opacity: 0;
+	z-index: 100;
+}
+.section:nth-child(3) .title img{
+	float: left;
+	animation:xz 1s 0.5s infinite both;
+}
+.section:nth-child(3) .title .p1{
+	width: 400px;
+	height: 48px;
+	float: right;
+	padding-bottom: 4px;
+	font-size: 40px;
+	line-height: 40px;
+	color:white;
+}
+.section:nth-child(3) .title .p2{
+	width: 400px;
+	height: 64px;
+	float: right;
+	font-size: 22px;
+	line-height: 32px;
+	color:white;
+}
+.section:nth-child(3) .t{
+	position: absolute;
+	top:150px;
+	right:14%;
+	transform:translateX(50px);
+	opacity: 0;
+}
+/*-四楼开始------------------------*/
+.section:nth-child(4){
+	background: url(../images/4.jpg);
+	position: relative;
+}
+.section:nth-child(4) .t1{
+	position: absolute;
+	left:14%;
+	top:140px;
+}
+.section:nth-child(4) .title{
+	width: 480px;
+	height: 126px;
+	position: absolute;
+	top:200px;
+	left:16%;
+	transform:translateX(-100px);
+	opacity: 0;
+	z-index: 100;
+}
+.section:nth-child(4) .title img{
+	float: left;
+	animation:xz 1s 0.5s infinite both;
+}
+.section:nth-child(4) .title .p1{
+	width: 400px;
+	height: 48px;
+	float: right;
+	padding-bottom: 4px;
+	font-size: 40px;
+	line-height: 40px;
+	color:white;
+}
+.section:nth-child(4) .title .p2{
+	width: 400px;
+	height: 64px;
+	float: right;
+	font-size: 22px;
+	line-height: 32px;
+	color:white;
+}
+.section:nth-child(4) .t{
+	position: absolute;
+	top:150px;
+	right:14%;
+	transform:translateX(50px);
+	opacity: 0;
+}
+.section:nth-child(4) .z{
+	width: 180px;
+	height: 20px;
+	position: absolute;
+	bottom:20px;
+	left:50%;
+	margin-left: -90px;
+}	
+.section:nth-child(4) .z p{
+	color:white;
+	font-size: 12px;
+	float: left;
+}
+.section:nth-child(4) .z p:last-child a{
+    color: white;
+    font-size: 12px;
+}
+.section:nth-child(4) .z p:last-child a:hover{
+	text-decoration: underline;
+}
